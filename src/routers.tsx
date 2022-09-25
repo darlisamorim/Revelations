@@ -2,7 +2,7 @@
 import React from 'react'
 
 // React Router Dom
-import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
+import {BrowserRouter as Routers, Routes, Route, Navigate} from "react-router-dom";
 
 // Import Pages
 import Home from './page/Home/home' // Home Page
@@ -10,10 +10,10 @@ import Notfound from "./page/Notfound/notfound"; // 404
 import Contact from "./page/Contact/contact"; // Contact
 
 // Construct
-function Index() {
+function Router() {
     return (
         // Router Args
-        <Router>
+        <Routers>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/contato" element={<Contact />} />
@@ -21,8 +21,8 @@ function Index() {
 
                 <Route path="*" element={<Navigate to="/notfound" />} />
             </Routes>
-        </Router>
+        </Routers>
     )
 }
 
-export default Index
+export default Router
