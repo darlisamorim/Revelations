@@ -1,2 +1,7 @@
-@import "reset.scss";
-@import "scssoo.scss";
+// Componenets
+@import "components/reset";
+@import "components/scssoo";
+
+// Structure
+@import "folds/header";
+@import "folds/footer";

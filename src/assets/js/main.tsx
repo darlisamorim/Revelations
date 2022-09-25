@@ -2,8 +2,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-// Main Import
-import Home from './page/Main/Home'
+// Home Import
+import Home from './page/Home/Home'
 
 // Global Style
 import './style.css'
