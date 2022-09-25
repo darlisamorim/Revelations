@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import reactLogo from '../../assets/images/react.svg'
-import './Home.css'
+import './notfound.css'
 import { FaAngular } from "react-icons/fa";
 
 function Home() {

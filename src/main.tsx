@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 // Main Import
-import Home from './page/Main/Home'
+import Home from './page/Main/home'
 
 // Global Style
 import './style.css'
