@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
-import reactLogo from '../../assets/images/react.svg'
-import './comments.css'
-import { FaAngular } from "react-icons/fa";
+// React Import
+import React from 'react'
 
+// Style Import
+import './comments.css'
+
+// Construct
 function Home() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="container">

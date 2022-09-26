@@ -1,9 +1,11 @@
 // React Imports
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-// Import Index
-import Index from './index';
+// Import Routers
+import Header from "./components/Header/header";
+import Routers from './routers';
+import Footer from "./components/Footer/footer";
 
 // Global Style
 import './style.css'
@@ -11,7 +13,9 @@ import './style.css'
 // Construct
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <React.StrictMode>
-        <Index />
+        <Header />
+        <Routers />
+        <Footer />
     </React.StrictMode>
 )
 

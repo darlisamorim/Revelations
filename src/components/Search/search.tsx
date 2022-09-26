@@ -1,21 +1,16 @@
-import React, { useState } from 'react'
-import reactLogo from '../../assets/images/react.svg'
+// React Import
+import React from 'react'
+
+// Style Import
 import './search.css'
 import { FaAngular } from "react-icons/fa";
 
+// Construct
 function Home() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="container">
-        <span></span>
-        <h1>Vite + React</h1>
-        <h2>Vite + React</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      <div className="card">
-          <FaAngular />
-      </div>
-
+        <h1>Div test</h1>
     </div>
   )
 }
