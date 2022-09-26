@@ -8,9 +8,9 @@ import './contact.css'
 function Contact() {
 
     return (
-        <div className="container">
+        <main className="container">
             <h1>Page Contact</h1>
-        </div>
+        </main>
     )
 
 }

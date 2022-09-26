@@ -8,9 +8,9 @@ import './home.css'
 function Home() {
 
     return (
-        <div className="container">
+        <main className="main">
             <h1>Page Home</h1>
-        </div>
+        </main>
     )
 }
 

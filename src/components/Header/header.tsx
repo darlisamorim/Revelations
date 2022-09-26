@@ -4,11 +4,17 @@ import React from 'react'
 // Style Import
 import './header.css'
 
+// React Icons
+import { HiUserGroup, HiAnnotation } from 'react-icons/hi';
+import { CgMenu } from 'react-icons/cg';
+
 // Construct
 function Header() {
 
     return (
-        <header className="container">
+        <header className="header container__flex">
+
+            <a title="" href=""><CgMenu size="3em" /></a>
 
             <h1 className="logotipo">
                 <strong>Darlis</strong> Alves Amorim<b>_</b>
