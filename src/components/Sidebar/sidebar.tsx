@@ -1,23 +1,11 @@
-import React, { useState } from 'react'
-import reactLogo from '../../assets/images/react.svg'
-import './sidebar.css'
-import { FaAngular } from "react-icons/fa";
+// Style Import
+import './sidebar.css';
 
-function Home() {
-  const [count, setCount] = useState(0)
-
+// Construct
+export function Sidebar() {
   return (
     <div className="container">
-        <span></span>
         <h1>Vite + React</h1>
-        <h2>Vite + React</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      <div className="card">
-          <FaAngular />
-      </div>
-
     </div>
   )
 }
-
-export default Home

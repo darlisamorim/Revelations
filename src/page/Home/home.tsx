@@ -1,6 +1,9 @@
 // React Import
 import React from 'react'
 
+// Import Components
+import { Posts } from "../../components/Posts/posts";
+
 // Style Import
 import './home.css'
 
@@ -8,8 +11,10 @@ import './home.css'
 function Home() {
 
     return (
-        <main className="main">
-            <h1>Page Home</h1>
+        <main className="main container">
+
+             <Posts />
+
         </main>
     )
 }
