@@ -8,8 +8,10 @@ import './footer.css'
 function Footer() {
 
     return (
-        <footer className="footer">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eaque quibusdam quis. Ea et, molestiae.</p>
+        <footer className="footer container">
+            <div className="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eaque quibusdam quis. Ea et, molestiae.</p>
+            </div>
         </footer>
     )
 }

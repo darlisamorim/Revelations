@@ -1,21 +1,66 @@
-span{
-  background-color: red;
-  padding: 200px;
+.posts {
+  padding: 60px 0;
+}
 
+.posts .grid {
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
+  grid-template-rows: repeat(4, 4fr);
+  /*grid-column-gap: 30px;*/
+  /*grid-row-gap: 30px;*/
+  grid-gap: 20px;
 }
-h1 {
-  font-size: var(--font-small);
-  color: blue;
-  position: relative;
-  z-index: 9999;
-}
-h2 {
-  color: purple;
-  font-size: var(--font-smaller);
 
+.posts .grid__item {
+  display: flex;
+  max-height: 120px;
+  overflow: hidden;
   position: relative;
-  z-index: 9999;
 }
-p {
-  font-size: var(--font-smaller);
+.posts .grid__item:nth-of-type(1) { max-height: 400px; }
+.posts .grid__item:nth-of-type(1) .grid__infs {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.posts .grid__item:nth-of-type(1) img { width: 100%; object-fit: cover; height: auto }
+
+.posts .grid__item:nth-of-type(1) { grid-area: 1 / 1 / 4 / 5; }
+.posts .grid__item:nth-of-type(2) { grid-area: 1 / 5 / 2 / 7; }
+.posts .grid__item:nth-of-type(3) { grid-area: 2 / 5 / 3 / 7; }
+.posts .grid__item:nth-of-type(4) { grid-area: 3 / 5 / 4 / 7; }
+.posts .grid__item:nth-of-type(5) { grid-area: 4 / 1 / 5 / 3; }
+.posts .grid__item:nth-of-type(6) { grid-area: 4 / 3 / 5 / 5; }
+.posts .grid__item:nth-of-type(7) { grid-area: 4 / 5 / 5 / 7; }
+
+
+@media (max-width: 75em) {
+  .posts .grid {
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(6, 4fr);
+  }
+
+  .posts .grid__item:nth-of-type(1) { grid-area: 1 / 1 / 4 / 5; }
+  .posts .grid__item:nth-of-type(2) { grid-area: 4 / 1 / 5 / 3; }
+  .posts .grid__item:nth-of-type(3) { grid-area: 4 / 3 / 5 / 5; }
+  .posts .grid__item:nth-of-type(4) { grid-area: 5 / 1 / 6 / 3; }
+  .posts .grid__item:nth-of-type(5) { grid-area: 5 / 3 / 6 / 5; }
+  .posts .grid__item:nth-of-type(6) { grid-area: 6 / 1 / 7 / 3; }
+  .posts .grid__item:nth-of-type(7) { grid-area: 6 / 3 / 7 / 5; }
+}
+
+@media (max-width: 49em) {
+  .posts .grid {
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(9, 4fr);
+  }
+
+  .posts .grid__item:nth-of-type(1) { grid-area: 1 / 1 / 4 / 5; }
+  .posts .grid__item:nth-of-type(2) { grid-area: 4 / 1 / 5 / 5; }
+  .posts .grid__item:nth-of-type(3) { grid-area: 5 / 1 / 6 / 5; }
+  .posts .grid__item:nth-of-type(4) { grid-area: 6 / 1 / 7 / 5; }
+  .posts .grid__item:nth-of-type(5) { grid-area: 7 / 1 / 8 / 5; }
+  .posts .grid__item:nth-of-type(6) { grid-area: 8 / 1 / 9 / 5; }
+  .posts .grid__item:nth-of-type(7) { grid-area: 9 / 1 / 10 / 5; }
 }
