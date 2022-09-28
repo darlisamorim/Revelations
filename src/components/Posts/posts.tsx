@@ -17,15 +17,15 @@ export function Posts() {
                 <h1 className="fz">Titulo section H1</h1>
 
                 <article className="grid__item">
-                    <a title="" href="" className="featured">
+                    <a title="" href="/single" className="featured">
                         <img src={imagePost} title="" alt=""/>
                     </a>
                     <footer className="grid__infs">
-                        <a title="" href="" className="category">
+                        <a title="" href="/single" className="category">
                             Technology
                         </a>
                         <h2>
-                            <a title="" href="">
+                            <a title="" href="/single">
                                 Modern technology essaya our daily life easier and batter
                             </a>
                         </h2>
@@ -209,6 +209,11 @@ export function Posts() {
                     </footer>
                 </article>
 
+            </div>
+            <div className="content__flex">
+                <figure className="pd__posts">
+                    <img src="https://source.unsplash.com/featured?technology" title="" alt=""/>
+                </figure>
             </div>
         </section>
     )
