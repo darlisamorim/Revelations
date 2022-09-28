@@ -2,7 +2,9 @@
 import './movie.css'
 
 // Image Import
+// @ts-ignore
 import imagePost from '../../assets/images/posts.jpg';
+// @ts-ignore
 import imagePostTest from '../../assets/images/posts_test.jpg';
 
 // Import Icon
