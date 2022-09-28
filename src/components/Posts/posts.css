@@ -206,6 +206,8 @@
   overflow: hidden;
 }
 .posts .pd__posts img {
+  width: 980px;
+  max-height: 120px;
   object-fit: cover;
   -webkit-border-radius: var(--radius);
   -moz-border-radius: var(--radius);
@@ -261,6 +263,10 @@
 
   .posts .pd__posts {
     max-width: 580px;
+    max-height: 400px;
+  }
+  .posts .pd__posts img {
+    width: 580px;
     max-height: 400px;
   }
 }
