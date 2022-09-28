@@ -30,9 +30,9 @@ export function Posts() {
                             </a>
                         </h2>
                         <p>
-                            <span><FaUserEdit />Admin</span>
-                            <span><FaRegCalendarAlt />Date</span>
-                            <span><FaRegComments />Comments</span>
+                            <a title="" href="" className="infs__item"><FaUserEdit />Darlis A. Amorim</a>
+                            <a title="" href="" className="infs__item"><FaRegCalendarAlt />September 18, 2022</a>
+                            <a title="" href="" className="infs__item"><FaRegComments />0 Comments</a>
                         </p>
                     </footer>
 

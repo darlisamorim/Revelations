@@ -151,10 +151,20 @@
 .posts .grid__item:nth-of-type(1) .grid__infs p {
   font-size: var(--font-normal);
   text-transform: capitalize;
+}
+.posts .grid__item:nth-of-type(1) .grid__infs p a.infs__item svg {
+  margin-right: 8px;
+}
+.posts .grid__item:nth-of-type(1) .grid__infs p a.infs__item {
+  margin-right: 40px;
   color: var(--white);
+  text-decoration: none;
   -webkit-transition: var(--transition);
   -moz-transition: var(--transition);
   transition: var(--transition);
+}
+.posts .grid__item:nth-of-type(1) .grid__infs p a.infs__item:hover {
+  text-decoration: underline;
 }
 .posts .grid__item:nth-of-type(1) img {
   max-width: 100%;
