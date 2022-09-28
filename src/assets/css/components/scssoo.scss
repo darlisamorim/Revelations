@@ -30,15 +30,20 @@
   --gray: hsl(228, 9.8%, 10%);
   --gray-hsla: hsla(0, 0%, 86%, 0.7);
 
-  /* Color Home */
+  /* First Color */
   --color-first-hue: 349.58;
   --color-first-hsla: 1;
   --color-first: hsla(var(--color-first-hue), 96.38%, 43.33%, var(--color-first-hsla));
 
-  /* Second Home */
-  --color-second-hue: 353.51;
+  /* Second Color */
+  --color-second-hue: 229;
   --color-second-hsla: 1;
   --color-second: hsla(var(--color-second-hue), 66.07%, 56.08%, var(--color-second-hsla));
+
+  /* third Color */
+  --color-third-hue: 229;
+  --color-third-hsla: 1;
+  --color-third: hsl(var(--color-third-hue), 34%, 12%, var(--color-third-hsla));
 
   /* Color Gradients */
   --gradient-red: linear-gradient(90deg, rgba(217, 0, 48, .95) 5%, rgba(171, 50, 76, .95) 89%);
@@ -111,6 +116,15 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+}
+
+/* Columns */
+.column__left {
+  flex-basis: 65%;
+  margin-right: 5%;
+}
+.column__right {
+  flex-basis: 30%;
 }
 
 .fz {
