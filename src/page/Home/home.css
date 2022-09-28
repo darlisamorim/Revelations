@@ -1,21 +1,7 @@
-span{
-  background-color: red;
-  padding: 200px;
 
-}
-h1 {
-  font-size: var(--font-small);
-  color: blue;
-  position: relative;
-  z-index: 9999;
-}
-h2 {
-  color: purple;
-  font-size: var(--font-smaller);
 
-  position: relative;
-  z-index: 9999;
-}
-p {
-  font-size: var(--font-smaller);
+/* section.movie */
+.movie {
+  padding: 60px 0;
+  background-color: var(--color-third);
 }

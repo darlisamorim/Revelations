@@ -2,7 +2,9 @@
 import React from 'react'
 
 // Import Components
-import { Posts } from "../../components/Posts/posts";
+import { Posts } from "../../components/Posts/posts"; // Post
+import { Read } from "../../components/MostRead/read"; // MostRead
+import { Movie } from "../../components/FeaturedMovie/movie"; // MostRead
 
 // Style Import
 import './home.css'
@@ -13,7 +15,15 @@ function Home() {
     return (
         <main className="main container">
 
-             <Posts />
+            <Posts />
+
+            <section className="container movie">
+                <div className="content__flex">
+                    <h1 className="fz">Nol</h1>
+                    <Movie />
+                    <Read />
+                </div>
+            </section>
 
         </main>
     )

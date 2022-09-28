@@ -16,8 +16,10 @@ function Header() {
                 <a title="" href="src/templates/Header/header"><CgMenu size="2.6em" /></a>
 
                 <h1 className="logotipo">
-                    <strong>Darlis</strong> Alves Amorim<b>_</b>
-                    <span className="dn">| </span>
+                    <a title="" href="/">
+                        <strong>Darlis</strong> Alves Amorim<b>_</b>
+                        <span className="dn">| </span>
+                    </a>
                 </h1>
 
                 <nav className="menu">
@@ -26,7 +28,7 @@ function Header() {
                     </h3>
 
                     <ul>
-                        <li><a title="Home | " href="/Users/darlis/Desktop/www/magazine/public">Home</a></li>
+                        <li><a title="Home | " href="/">Home</a></li>
                         <li><a title="404 | " href="/notfound">404</a></li>
                         <li><a title="Contato | " href="/contato">Contato</a></li>
                     </ul>
