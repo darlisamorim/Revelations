@@ -50,10 +50,11 @@
   --mz: 0;
   --pz: 0;
   --dn: none;
-  --font-name: 'Encode Sans Condensed', sans-serif;
+  --font-name: 'League Spartan', sans-serif;
+  --font-second: 'Encode Sans Condensed', sans-serif;
 
   /* Convert Size -> ( px ) to ( em ) {N / 16} = Result */
-  --font-normal: .875em;	/* 14px */
+  --font-normal: .94em;	/* 14px */
 
   --font-smaller: 1.175em;	/* 16px */
   --font-small: 1.375em;	/* 34px */
@@ -71,7 +72,7 @@
   --radius-50: 50%;
 
   /* Box Shadow */
-  --box-shadow: 1px 1px 6px 0px var(--black-hsla);
+  --box-shadow: 1px 1px 4px 0px var(--black-hsla);
 
   /* Text Shadow */
   --text-shadow: 1.4px 2px 0px var(--black);
