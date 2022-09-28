@@ -1,0 +1,12 @@
+.featured__movie {
+    justify-content: space-between;
+}
+.featured__movie .column__figure {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+.featured__movie .column__item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 48%;
+}

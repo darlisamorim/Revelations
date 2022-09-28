@@ -19,7 +19,7 @@ function Home() {
 
             <section className="container movie">
                 <div className="content__flex">
-                    <h1 className="fz">Nol</h1>
+                    <h1 className="container">Nol</h1>
                     <Movie />
                     <Read />
                 </div>
