@@ -24,7 +24,7 @@ function Routers() {
         <Router>
             <Routes>
                 {/* Main */}
-                <Route path="/darlisamorim-magazine.herokuapp.com" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/single" element={<Single />} />
                 <Route path="/contato" element={<Contact />} />
 
