@@ -11,6 +11,9 @@ function Signin() {
         <main className="container">
             <h1>Login</h1>
             <br/>
+            <a href="/">Home</a>
+            <br/>
+            <br/>
             <a href="/sign-up">Inscreva-se</a>
             <br/>
             <br/>

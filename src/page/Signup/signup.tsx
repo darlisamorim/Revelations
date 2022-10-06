@@ -10,7 +10,10 @@ function Signup() {
     return (
         <main className="container">
             <h1>Inscreva-se</h1>
-
+            <br/>
+            <a href="/">Home</a>
+            <br/>
+            <br/>
         </main>
     )
 

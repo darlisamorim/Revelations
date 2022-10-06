@@ -10,6 +10,10 @@ function Signin() {
     return (
         <main className="container">
             <h1>Recupere a senha</h1>
+            <br/>
+            <a href="/">Home</a>
+            <br/>
+            <br/>
         </main>
     )
 
