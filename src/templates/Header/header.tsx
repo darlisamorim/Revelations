@@ -62,6 +62,12 @@ function Header() {
                     <li><a title="404 | " href="/notfound">404</a></li>
                     <li><a title="Contato | " href="/contato">Contato</a></li>
                 </ul>
+
+                <ul className="">
+                    <li><a title="/forget | " href="/sign-in">Login</a></li>
+                    <li><a title="Inscreva-se | " href="/sign-up">Inscreva-se</a></li>
+                    <li><a title="Recuperar senha | " href="/forget">Recuperar senha</a></li>
+                </ul>
             </nav>
         </>
     )
