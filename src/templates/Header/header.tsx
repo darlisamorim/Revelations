@@ -6,6 +6,8 @@ import './header.css'
 
 // React Icons
 import { CgMenu } from 'react-icons/cg';
+import { MdOutlineDarkMode } from 'react-icons/md';
+import { BsSunFill } from 'react-icons/bs';
 
 // Construct
 function Header() {
@@ -28,6 +30,11 @@ function Header() {
                     </h3>
 
                     <ul>
+                        <li><MdOutlineDarkMode size="2em"  /></li>
+                        <li><BsSunFill size="2em"  /></li>
+                        <li><a title="Login | " href="/sign-in">Entrar</a></li>
+                    </ul>
+                    <ul className="dn">
                         <li><a title="Home | " href="/">Home</a></li>
                         <li><a title="404 | " href="/notfound">404</a></li>
                         <li><a title="Contato | " href="/contato">Contato</a></li>

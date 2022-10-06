@@ -2,17 +2,18 @@
 import React from 'react'
 
 // Style Import
-import './signin.css'
+import './signup.css'
 
 // Construct
-function Signin() {
+function Signup() {
 
     return (
         <main className="container">
-            <h1>Login</h1>
+            <h1>Inscreva-se</h1>
+
         </main>
     )
 
 }
 
-export default Signin
+export default Signup
